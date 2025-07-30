@@ -1,0 +1,16 @@
+{
+  "name": "stream-extractor",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.4",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "puppeteer-core": "^20.7.3",
+    "@sparticuz/chromium-min": "^3.2.0"
+  }
+}
