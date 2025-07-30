@@ -1,9 +1,12 @@
 {
-  "name": "stream-extractor",
+  "name": "stream-extractor-server",
   "version": "1.0.0",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "vercel-build": "echo 'No build needed'"
+    "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
+  }
 }
