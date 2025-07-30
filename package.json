@@ -1,16 +1,18 @@
 {
   "name": "stream-extractor",
   "version": "1.0.0",
+  "description": "Stream extractor with Puppeteer for Next.js on Vercel",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.4",
-    "puppeteer-extra": "^3.2.3",
-    "puppeteer-extra-plugin-stealth": "^2.11.1",
-    "puppeteer-core": "^20.7.3",
-    "@sparticuz/chromium-min": "^3.2.0"
+    "next": "^13.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "puppeteer-core": "^20.8.1",
+    "@sparticuz/chromium-min": "^3.1.0"
   }
 }
