@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "vercel-build": "node index.js"
   },
   "dependencies": {
-    "@sparticuz/chromium-min": "^2.0.2",
+    "@sparticuz/chromium": "^1.25.0",
     "puppeteer-core": "^21.3.8"
   }
 }
